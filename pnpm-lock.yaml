@@ -14,6 +14,8 @@ overrides:
   kimi-code>@tailwindcss/vite: 4.1.18
   kimi-code>tailwindcss: 4.1.18
 
+packageExtensionsChecksum: sha256-TCxrdh//NnttkzXVnlqCOa4GRRWAVRbb6dc7vdfUO1Q=
+
 importers:
 
   .:
@@ -9493,6 +9495,7 @@ snapshots:
     dependencies:
       json-schema-to-ts: 3.1.1
       standardwebhooks: 1.0.0
+      undici: 7.27.1
     optionalDependencies:
       zod: 4.3.6
 
@@ -16317,6 +16320,8 @@ snapshots:
       is-wsl: 2.2.0
 
   openai@6.34.0(ws@8.20.0)(zod@4.3.6):
+    dependencies:
+      undici: 7.27.1
     optionalDependencies:
       ws: 8.20.0
       zod: 4.3.6
